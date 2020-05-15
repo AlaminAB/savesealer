@@ -1,0 +1,297 @@
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+/* 
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+*/
+
+
+/************** Default CSS **************/
+
+:root {
+    --body: #fff;
+    --p: #000;
+    --a: #fff;
+    --p: #000;
+    --h: #116dff;
+    --dark: #1F1F20;
+}
+
+body {
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+    background-color: var(--body);
+}
+ 
+
+a,
+.button,
+button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(33, 37, 41);
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(33, 37, 41);
+    line-height: 44px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #212529;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+em {
+    font-style: italic;
+}
+p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(33, 37, 41);
+    margin-bottom: 16px;
+}
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    padding: 12px 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-size: 22px;
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 70px;
+    line-height: 15px;
+    margin-right: 10px;
+    vertical-align: -24px;
+}
+blockquote p{
+    display: inline;
+    font-size: 21px;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: blue;
+    text-decoration: underline;
+
+}
+
+/* CUSTOM BUTTON  */
+.custom-btn {
+    font-size: 22px;
+    padding: 15px 20px;
+    vertical-align: top;
+    display:block;
+    font-weight: 700;
+    color: #fff;
+    background: #dc3545;
+    border: 1px solid #dc3545;
+    border-radius: 12px;
+   box-shadow: 0 5px 0 0 #BC1F1F;
+    -webkit-box-shadow: 0 5px 0 0 #BC1F1F;
+    -moz-box-shadow: 0 5px 0 0 #BC1F1F;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+.custom-btn:hover {
+    text-decoration: none;
+         background-color: #c82333;
+    border-color: #bd2130;
+    color: #fff;
+}
+.checked {
+    color: orange;
+}
+/************** Default CSS End **************/
+
+/* header  */
+header {
+    padding: 15px 0px;
+    border-bottom: 1px solid #ebecef;
+    margin-bottom: 5px;
+}
+.logo-img img {
+    width: 100%;
+    max-width: 312px;
+}
+
+.author-img img {
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+}
+
+.author {
+    display: flex;
+}
+
+.author-info p:first-child {
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.author-info p:last-child {
+    color: #6c757d;
+    font-size: 15px;
+}
+
+.author-img {
+    margin-right: 10px;
+}
+/* socila icon  */
+.social-icon ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon ul li {
+    display: block;
+    width: 100%;
+}
+
+.social-icon ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.social-icon ul li a img {
+    width: 100%;
+    max-width: 20px;
+}
+.fb{
+background: #3A579D;
+}
+.twitter{
+background: #00AAF0;
+}
+.linkd{
+background: #0077b5;
+}
+
+.section3-img {
+    text-align: center;
+}
+
+.section3-img img {
+    width: 85%;
+}
+
+.section3-img p {
+    font-size: 15px;
+    color: #6c757d;
+}
+.border-section {
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.border-section ul {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+img.d-flex.mr-3.rounded-circle.lazyloaded {
+    width: 100%;
+    max-width: 50px;
+}
+
+img.comment-image {
+    width: 100%;
+    max-width: 360px;
+}
+.img.comment-image.lazyloaded{
+width: 100%;
+max-width: 300px;
+}
+.slide-bar-img {
+    border: 1px solid #ddd;
+    padding-bottom: 15px;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+.slide-bar-img p {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: #6c757d!important;
+    font-size: 16px;
+    margin-bottom: 10px;
+}

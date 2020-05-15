@@ -1,0 +1,354 @@
+/************** Default CSS **************/
+
+:root {
+    --body: #fff;
+    --p: #000;
+    --a: #fff;
+    --p: #000;
+    --h: #116dff;
+    --dark: #1F1F20;
+}
+
+body {
+    font-family: Arial, 'Noto Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+    background-color: var(--body);
+}
+
+
+a,
+.button,
+button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(33, 37, 41);
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(33, 37, 41);
+    line-height: 44px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #212529;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+em {
+    font-style: italic;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #212529;
+    margin-bottom: 16px;
+}
+
+a {
+     font-family: Arial, 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+/* CUSTOM BUTTON  */
+.custom-btn {
+    font-size: 20px;
+    padding: 13px 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 700;
+    color: #fff;
+    background: #0ca600;
+    border-bottom: 3px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.custom-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.custom-btn small {
+    display: block;
+    color: #076500;
+    font-size: 60%;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+/************** Default CSS End **************/
+
+
+.banner-section {
+    background-image: url(../img/bg3-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+}
+
+.banner-right img {
+    max-width: 520px;
+    width: 100%;
+}
+
+.banner-left-text h2 {
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    line-height: 38px;
+    margin-top: 15px;
+}
+
+.banner-left img {
+    width: 100%;
+    max-width: 410px;
+}
+
+.fa-check {
+    color: #29aa15;
+}
+
+.waste-title h2 {
+    color: #838383;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.waste-contetn h2 {
+    color: #3c3c3c;
+    font-weight: 600;
+    font-size: 27px;
+    text-align: center;
+}
+
+.waste-food-wrap {
+    padding: 40px 0px;
+}
+
+.services-top i {
+    font-size: 64px;
+}
+
+.services-top {
+    text-align: center;
+}
+
+.services-top h2 {
+    color: #848484;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.services-ul ul {
+    padding: 0;
+    list-style: none;
+}
+
+.services-ul ul li {
+    padding: 5px 0px 10px 55px;
+    list-style-type: none;
+    background-image: url(../img/styled-ul-icon.png);
+    background-repeat: no-repeat;
+    background-position: 7px 9px;
+}
+.services-wrap {
+    padding-bottom: 40px;
+}
+.testimonial-section {
+    background: #3c3c3c !important;
+    padding: 40px 0px;
+}
+
+.testimonial-title h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+.single-testimonial {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.testimonial-img img {
+    max-width: 150px;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.testimonial-text {padding-left: 40px;}
+
+.testimonial-text p {
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 25px;
+}
+
+.testimonial-text h3 {
+    text-align: right;
+    color: #fff;
+    font-size: 24px;
+    margin: 0px;
+}
+.progmotional-text h2 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.progmotional-text p {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 20px;
+    line-height: 30px;
+}
+.promotion-section{
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: repeat repeat !important;
+    background-position: center center;
+    background-image: url(../img/AAAAAAAAAAA.jpg);
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.how-savesealer-text h3 {
+    text-align: center;
+    font-size: 28px;
+}
+.how-SaveSealer-img img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.how-savesealer-text li {
+    font-size: 24px;
+}
+
+.how-SaveSealer {
+    padding: 40px 0px;
+}
+.faq-content {
+    background: #3c3c3c !important;
+    padding: 25px 18px;
+}
+button.btn.btn-link {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-body p {
+    color: #fff;
+        margin: 0;
+}
+
+.card-body {
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+.faq-title h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.faq-section {
+    padding-bottom: 40px;
+}
+.satisfication-section {
+    padding-bottom: 20px;
+}
+ul.nav.justify-content-center.footer-nav li .nav-link {
+    font-size: 12px;
+    color: gray !important;
+    font-weight: 400;
+}
+.footer-copy {
+    text-align: center;
+}
+
+.footer-copy p {
+    font-size: 12px;
+    margin: 0;
+    color: gray;
+}
